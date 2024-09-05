@@ -8,7 +8,9 @@ moto==5.0.1
 pip-audit==2.7.3
 pyfakefs==4.0.2
 pyflakes==2.2.0
-pylint==2.5.3
+pylint==2.7.0
 pytest-cov==4.1.0
 pytest==7.4.4
 requests-mock==1.8.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
