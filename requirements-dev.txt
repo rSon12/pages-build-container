@@ -12,3 +12,4 @@ pylint==2.5.3
 pytest-cov==4.1.0
 pytest==7.4.4
 requests-mock==1.8.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
